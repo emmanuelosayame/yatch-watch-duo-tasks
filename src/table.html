@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <title>BoatBot</title>
+</head>
+
+<body class="h-full font-sfProText">
+
+    <main class=" bg-blue-500 flex justify-center pb-10 w-full h-screen" >
+        <div class="bg-white rounded-[16px] w-9/12 h-[80%] self-end overflow-hidden">
+
+            <div class="flex justify-between w-full gap-20 pl-5 pr-8 py-7">
+                <div class="flex-1">
+                    <div class="relative">
+                        <img src="../public/search-icon.svg" class="absolute top-1/2 -translate-y-1/2 left-2.5" />
+                        <input class="bg-transparent border border-[#73717F] w-[327px] outline-none py-4 pl-12 pr-3
+                         rounded-[8px]" placeholder="Search Orders" />
+                    </div>
+                </div>
+
+                <button class="rounded-[26px] bg-[#FC744A] flex items-center gap-3 
+                text-white h-[52px] w-[209px] justify-center drop-shadow-sm" >
+                    <img src="../public/add.svg" class="" />
+                    <span>Add New</span>
+                </button>
+
+                <button class="text-[#00005C] font-semibold" >Filter</button>
+
+                <button class="flex gap-2 items-center text-[#00005C] font-semibold" >
+                    <span>Sort: Newest</span>
+                    <img src="../public/arrow-block-down.svg" class="" />
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

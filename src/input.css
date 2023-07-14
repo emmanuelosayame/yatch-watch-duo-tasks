@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img-bg {
+  background-image: url('../public/assets/images/img-bg.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.ClipPath {
+  /* clip-path: polygon(
+      7% 81%,
+      0 82%,
+      0 0,
+      100% 0,
+      100% 95%,
+      91% 97%,
+      79% 98%,
+      71% 97%,
+      61% 95%,
+      43% 89%,
+      25% 84%,
+      17% 82%
+    ); */
+  -webkit-clip-path: polygon(
+    7% 81%,
+    0 82%,
+    0 0,
+    100% 0,
+    100% 94%,
+    90% 96%,
+    78% 97%,
+    68% 96%,
+    60% 94%,
+    43% 89%,
+    25% 84%,
+    17% 82%
+  );
+  clip-path: polygon(
+    7% 81%,
+    0 82%,
+    0 0,
+    100% 0,
+    100% 94%,
+    90% 96%,
+    78% 97%,
+    68% 96%,
+    60% 94%,
+    43% 89%,
+    25% 84%,
+    17% 82%
+  );
+}
+
+/**for clipping the hero image*/
+.hero-image {
+  /* clip-path: url(#heroclipmask); */
+  -webkit-clip-path: polygon(
+    7% 81%,
+    0 82%,
+    0 0,
+    100% 0,
+    100% 94%,
+    90% 96%,
+    78% 97%,
+    68% 96%,
+    60% 94%,
+    43% 89%,
+    25% 84%,
+    17% 82%
+  );
+  clip-path: polygon(
+    7% 81%,
+    0 82%,
+    0 0,
+    100% 0,
+    100% 94%,
+    90% 96%,
+    78% 97%,
+    68% 96%,
+    60% 94%,
+    43% 89%,
+    25% 84%,
+    17% 82%
+  );
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
