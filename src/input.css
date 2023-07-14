@@ -98,3 +98,7 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.tableRow:nth-child(even) {
+  background-color: #f5f5f5;
+}
