@@ -14,14 +14,15 @@ module.exports = {
         "img-bg": "url('/public/img-bg.png')",
       },
       colors: {
-        "deepSeablue": "#00005C",
-        "cgray": "#1F2426",
+        deepSeablue: "#00005C",
+        cgray: "#1F2426",
         "sky-blue": "#8BCCE1",
         "sky-blue": "#e8f5f9",
         "deep-sea-blue": "#00005c",
         "gray-60": "#73717f",
-        "success": "#00ac31",
+        success: "#00ac31",
         "gray-20": "#a2a1ad",
+        orange: "#fc744a",
       },
       keyframes: {
         progressBarRotate: {

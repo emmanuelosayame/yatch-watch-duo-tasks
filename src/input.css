@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .bg-img-bg {
-  background-image: url('../public/assets/images/img-bg.png');
+  background-image: url("../public/assets/images/img-bg.png");
 }
 
 .bg-cover {
@@ -101,4 +101,15 @@
 
 .tableRow:nth-child(even) {
   background-color: #f5f5f5;
+}
+
+@layer components {
+  nav div img {
+    @apply w-4 cursor-pointer;
+  }
+
+  nav div a,
+  nav a {
+    @apply flex flex-col w-full p-1 items-center justify-center  text-xs font-semibold;
+  }
 }

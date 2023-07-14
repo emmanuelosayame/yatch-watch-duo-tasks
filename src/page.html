@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Full page</title>
+  </head>
+  <body>
+    <main class="flex flex-row">
+      <nav
+        class="flex flex-col items-center justify-between h-screen px-5 py-5 col"
+      >
+        <div class="flex flex-col items-center gap-3">
+          <img src="../public/logo.png" class="w-16 mb-6" />
+
+          <a>
+            <img src="../public/house.svg" />
+            <p>Home</p>
+          </a>
+          <a>
+            <img src="../public/Calendar.svg" />
+            <p>Schedule</p>
+          </a>
+          <a>
+            <img src="../public/Document.svg" />
+            <p>Orders</p>
+          </a>
+          <a>
+            <img src="../public/Customer.svg" />
+            <p>Customers</p>
+          </a>
+          <a>
+            <img src="../public/Team.svg" />
+            <p>My Team</p>
+          </a>
+          <a>
+            <img src="../public/file-invoice-dollar-solid 1.svg" />
+            <p>Invoices</p>
+          </a>
+          <a>
+            <img src="../public/Video.svg" />
+            <p>How To's</p>
+          </a>
+          <a>
+            <img src="../public/Frame.svg" />
+            <p>More</p>
+          </a>
+        </div>
+        <a>
+          <img src="../public/quickbooks-2 1.svg" />
+          <p>Connect</p>
+        </a>
+      </nav>
+      <section class="relative w-full">
+        <img
+          src="../public/Background.png"
+          class="absolute top-0 right-0 w-full h-60 -z-10"
+          alt=""
+        />
+        <div class="flex justify-between px-8 py-6 font-bold text-white">
+          <p>Service Orders</p>
+          <span class="flex gap-5">
+            <input
+              type="text"
+              class="py-2 px-4 text-black font-normal text-xs rounded-lg w-60 bg-[url('../public/Vector.svg')] bg-no-repeat bg-[97%]"
+              placeholder="How can we be of help today, James?"
+            />
+            <button
+              class="px-6 py-1 text-sm font-bold border rounded-full border-orange"
+            >
+              Search
+            </button>
+          </span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
